@@ -1,0 +1,31 @@
+.box{
+    border: 1px solid black;
+    height: 360px;
+    width: 360px;
+    background-image: linear-gradient(black,white);/*the basic or default color move from top to bottom */
+    background-image: linear-gradient(to top,black,white);
+    background-image: linear-gradient(to right,aqua,lightgreen);/*in this the color move from left to right*/
+    background-image: linear-gradient(to left,aqua,lightgreen);/*in this the color move from right  to left*/
+    background-image: linear-gradient(to top left,green,red);
+    background-image: linear-gradient(45deg,yellow,aqua);
+    /* we can also use rgba for colors and transprency */
+    color: rgb(0, 0, 0);
+}
+.radial{
+    border: 2px solid black;
+    margin-top: 30px;
+    height: 300px;
+    width: 300px;
+    background-image: radial-gradient(circle,lightgreen,white 50%,orange);/*we can also use shape in radial gradiant and also use % the color can occupy the shape*/
+
+}
+.conical{
+    border: 2px solid black;
+    margin-top: 30px;
+    height: 350px;
+    width: 300px;
+    background-image: conic-gradient(red,green,yellow);
+    border-radius: 50%;/*we can make the conic gradiant to pie by simply adding border radius */
+
+
+}
